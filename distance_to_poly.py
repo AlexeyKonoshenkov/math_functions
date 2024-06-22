@@ -7,8 +7,9 @@ def distance_to_poly(
     poly: List[Tuple]
 ):
     """
+    
     The function calculates the distance between point and polygon in 2D space in vectorized format using numpy library.
-    The calculation works with only valid polygons which do net sel-intersect.
+    It works with only valid polygons which do net self-intersect to avoid ambiguous calculations.
     
     Example
     -------
